@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: recipe-ai-backend
+    env: python
+    plan: free
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "cd backend && gunicorn app:app"
+    autoDeploy: true
