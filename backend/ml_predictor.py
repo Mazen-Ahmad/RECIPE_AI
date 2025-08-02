@@ -8,7 +8,7 @@ from sklearn.preprocessing import FunctionTransformer
 from sklearn.preprocessing import StandardScaler
 
 # Load and train the model (you should do this once and save the model)
-df = pd.read_csv("D:\Final_Indian_Food_Unmodified_Ingredients.csv")
+df = pd.read_csv("Final_Indian_Food_Unmodified_Ingredients.csv")
 
 # Define features and target
 X = df.drop(columns=["difficulty"])
