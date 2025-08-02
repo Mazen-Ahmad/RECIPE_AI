@@ -82,7 +82,7 @@ const App = () => {
 
   const preloadImages = () => {
     for (let i = 1; i <= frames.maxIndex; i++) {
-      const imageURL = `./FRAMES/frame_${i.toString().padStart(4, "0")}.jpeg`;
+      const imageURL = `/FRAMES/frame_${i.toString().padStart(4, "0")}.jpeg`;
       const img = new Image();
       img.src = imageURL;
       img.onload = () => {
