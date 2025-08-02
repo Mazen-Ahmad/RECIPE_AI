@@ -37,7 +37,7 @@ const App = () => {
   const [showResults, setShowResults] = useState(false);
   const [animateHero, setAnimateHero] = useState(false);
 
-  const BACKEND_URL = 'http://localhost:5000';
+  const BACKEND_URL = 'https://recipe-backend-c9rc.onrender.com';
 
   const loadImage = (index) => {
     if (index >= 0 && index < frames.maxIndex) {
