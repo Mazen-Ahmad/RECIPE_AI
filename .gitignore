@@ -1,0 +1,14 @@
+# Node modules (frontend)
+node_modules/
+dist/
+
+# Python (backend)
+__pycache__/
+.env
+*.pyc
+venv/
+
+# OS-specific
+.DS_Store
+
+TestML/
