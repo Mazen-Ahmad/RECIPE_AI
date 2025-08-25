@@ -22,7 +22,7 @@ const App = () => {
   const [showResults, setShowResults] = useState(false);
   const [animateHero, setAnimateHero] = useState(false);
 
-  const BACKEND_URL = 'https://recipe-backend-c9rc.onrender.com';
+  const BACKEND_URL = 'https://recipe-ai-lvyy.onrender.com';
 
   useEffect(() => {
     setTimeout(() => setAnimateHero(true), 1000);
